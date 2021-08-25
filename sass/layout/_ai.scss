@@ -1,0 +1,85 @@
+.ai {
+    padding: 10rem;
+
+    &-container {
+        max-width: 124rem;
+    }
+
+    &-img {
+        width: 50%;
+
+        &__link {
+            width: 100%;
+        }
+    }
+
+    &-text {
+        width: 50%;
+
+        &__headline {
+            font-family: 'Open Sans',sans-serif;
+            color: #3f3f3f;
+            font-weight: 600;
+            line-height: 38px;
+            font-size: 38px;
+            opacity: 1;
+            margin-bottom: 16px;
+            text-transform: unset;
+        }
+
+        &__p1 {
+            line-height: 28px;
+            font-weight: 300;
+            font-size: 25px;
+            font-family: 'Open Sans',sans-serif;
+            color: #32c1e4;
+            opacity: 1;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        &__p2 {
+            letter-spacing: normal;
+            font-size: 15px;
+            text-align: justify;
+            line-height: 26px;
+            color: #4b5d73;
+            font-weight: 300;
+        }
+
+        &__p3 {
+            letter-spacing: normal;
+            font-size: 15px;
+            text-align: justify;
+            line-height: 26px;
+            color: #4b5d73;
+            font-weight: 300;
+        }
+
+        &__button {
+            background-color: #32c1e4;
+            border: 2px solid #32c1e4;
+            padding: 10px 45px;
+            margin-top: 5rem;
+            border-radius: 7px;
+            color: #fff;
+            font-weight: 900;
+            font-size: 14px;
+            text-transform: uppercase;
+            transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -o-transition: all .3s ease;
+
+            &:hover {
+                background-color: #096898;
+                border: 2px solid #096898;
+                color: #fff;
+                transition: all .3s ease;
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -o-transition: all .3s ease;
+            }
+        }
+    }
+}

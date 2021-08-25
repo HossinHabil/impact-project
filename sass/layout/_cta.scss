@@ -1,0 +1,61 @@
+.cta-bg {
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background: linear-gradient(50.89deg,#086595 17%,#32c1e4 100%);
+}
+
+.cta-text {
+    padding: 2rem;
+
+    &__first {
+        color: #fff;
+        font-size: 30px;
+        line-height: 33px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__second {
+        display: inline-block;
+        color: #fff;
+        font-size: 30px;
+        line-height: 33px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+.cta-button {
+    position: absolute;
+    font-size: 4rem;
+    left: 88rem;
+    
+    &__link {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 13px 50px;
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+
+        &:hover {
+            background-color: #fff;
+            border: 2px solid #fff;
+            color: #47a2c8 !important;
+            transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -o-transition: all .3s ease;
+        }
+    }
+}
